@@ -1,0 +1,7 @@
+author: ddrccw
+github_url: https://github.com/ddrccw/ConnectionKit
+root_url: https://ddrccw.github.io/ConnectionKit/
+module: ConnectionKit
+output: docs
+theme: fullwidth
+xcodebuild_arguments: [-workspace, 'ConnectionKit.xcworkspace', -scheme, 'ConnectionKit-iOS']
