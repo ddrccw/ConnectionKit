@@ -1,1 +1,8 @@
 
+#github "robbiehanson/CocoaAsyncSocket" "master"
+#
+#github "tristanhimmelman/AlamofireObjectMapper" ~> 5.0
+#github "Alamofire/Alamofire"
+#
+#github "Hearst-DD/ObjectMapper" ~> 3.1
+#

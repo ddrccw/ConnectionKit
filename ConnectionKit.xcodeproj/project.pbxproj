@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A7E35BC2042DD20006E807F /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A7E35B82042DD1F006E807F /* Alamofire.framework */; };
+		2A7E35BD2042DD20006E807F /* AlamofireObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A7E35B92042DD1F006E807F /* AlamofireObjectMapper.framework */; };
+		2A7E35BE2042DD20006E807F /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A7E35BA2042DD1F006E807F /* CocoaAsyncSocket.framework */; };
+		2A7E35BF2042DD20006E807F /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A7E35BB2042DD1F006E807F /* ObjectMapper.framework */; };
+		2A7E35CB2042E088006E807F /* FileInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7E35CA2042E088006E807F /* FileInfo.swift */; };
+		2A7E35CD2042E09F006E807F /* SessionTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7E35CC2042E09F006E807F /* SessionTask.swift */; };
 		2A8EF4222025B31700AD3C9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8EF4212025B31700AD3C9A /* AppDelegate.swift */; };
 		2A8EF4242025B31700AD3C9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8EF4232025B31700AD3C9A /* ViewController.swift */; };
 		2A8EF4272025B31700AD3C9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A8EF4252025B31700AD3C9A /* Main.storyboard */; };
@@ -48,6 +54,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2A1B643F2042FCA4005BA951 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		2A7E35B82042DD1F006E807F /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		2A7E35B92042DD1F006E807F /* AlamofireObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireObjectMapper.framework; path = Carthage/Build/iOS/AlamofireObjectMapper.framework; sourceTree = "<group>"; };
+		2A7E35BA2042DD1F006E807F /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaAsyncSocket.framework; path = Carthage/Build/iOS/CocoaAsyncSocket.framework; sourceTree = "<group>"; };
+		2A7E35BB2042DD1F006E807F /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectMapper.framework; path = Carthage/Build/iOS/ObjectMapper.framework; sourceTree = "<group>"; };
+		2A7E35CA2042E088006E807F /* FileInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileInfo.swift; sourceTree = "<group>"; };
+		2A7E35CC2042E09F006E807F /* SessionTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SessionTask.swift; path = ConnectionKit/Classes/SessionTask.swift; sourceTree = SOURCE_ROOT; };
 		2A8EF41F2025B31700AD3C9A /* ConnectionKit-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ConnectionKit-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A8EF4212025B31700AD3C9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A8EF4232025B31700AD3C9A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -75,6 +88,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A7E35BC2042DD20006E807F /* Alamofire.framework in Frameworks */,
+				2A7E35BD2042DD20006E807F /* AlamofireObjectMapper.framework in Frameworks */,
+				2A7E35BE2042DD20006E807F /* CocoaAsyncSocket.framework in Frameworks */,
+				2A7E35BF2042DD20006E807F /* ObjectMapper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +106,85 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A7E35C02042DFFD006E807F /* Socket */ = {
+			isa = PBXGroup;
+			children = (
+				2A7E35C12042DFFD006E807F /* Tasks */,
+				2A7E35C32042DFFD006E807F /* UDP */,
+				2A7E35C62042DFFD006E807F /* Utils */,
+				2A7E35C72042DFFD006E807F /* TCP */,
+			);
+			path = Socket;
+			sourceTree = "<group>";
+		};
+		2A7E35C12042DFFD006E807F /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				2A7E35C22042DFFD006E807F /* TCP */,
+			);
+			path = Tasks;
+			sourceTree = "<group>";
+		};
+		2A7E35C22042DFFD006E807F /* TCP */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TCP;
+			sourceTree = "<group>";
+		};
+		2A7E35C32042DFFD006E807F /* UDP */ = {
+			isa = PBXGroup;
+			children = (
+				2A7E35C42042DFFD006E807F /* Server */,
+				2A7E35C52042DFFD006E807F /* Client */,
+			);
+			path = UDP;
+			sourceTree = "<group>";
+		};
+		2A7E35C42042DFFD006E807F /* Server */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Server;
+			sourceTree = "<group>";
+		};
+		2A7E35C52042DFFD006E807F /* Client */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
+		2A7E35C62042DFFD006E807F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		2A7E35C72042DFFD006E807F /* TCP */ = {
+			isa = PBXGroup;
+			children = (
+				2A7E35C82042DFFD006E807F /* Server */,
+				2A7E35C92042DFFD006E807F /* Client */,
+			);
+			path = TCP;
+			sourceTree = "<group>";
+		};
+		2A7E35C82042DFFD006E807F /* Server */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Server;
+			sourceTree = "<group>";
+		};
+		2A7E35C92042DFFD006E807F /* Client */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
 		2A8EF4202025B31700AD3C9A /* ConnectionKit-Demo */ = {
 			isa = PBXGroup;
 			children = (
@@ -160,6 +256,11 @@
 		357D954B1DA3F2B400AEC55F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2A1B643F2042FCA4005BA951 /* Security.framework */,
+				2A7E35B82042DD1F006E807F /* Alamofire.framework */,
+				2A7E35B92042DD1F006E807F /* AlamofireObjectMapper.framework */,
+				2A7E35BA2042DD1F006E807F /* CocoaAsyncSocket.framework */,
+				2A7E35BB2042DD1F006E807F /* ObjectMapper.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -167,7 +268,10 @@
 		359649011FB18CBF00FC7ADC /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				2A7E35C02042DFFD006E807F /* Socket */,
 				359649021FB18CBF00FC7ADC /* ConnectionKit.swift */,
+				2A7E35CC2042E09F006E807F /* SessionTask.swift */,
+				2A7E35CA2042E088006E807F /* FileInfo.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -212,6 +316,8 @@
 				3549BB1D1DA389CD00C63030 /* Frameworks */,
 				3549BB1E1DA389CD00C63030 /* Headers */,
 				3549BB1F1DA389CD00C63030 /* Resources */,
+				2ACBE2882042DB2D00282C8C /* ShellScript */,
+				2A1B64412042FFD9005BA951 /* CommonCryptoModuleMap */,
 			);
 			buildRules = (
 			);
@@ -314,6 +420,44 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2A1B64412042FFD9005BA951 /* CommonCryptoModuleMap */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = CommonCryptoModuleMap;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This if-statement means we'll only run the main script if the CommonCryptoModuleMap directory doesn't exist\n# Because otherwise the rest of the script causes a full recompile for anything where CommonCrypto is a dependency\n# Do a \"Clean Build Folder\" to remove this directory and trigger the rest of the script to run\nif [ -d \"${BUILT_PRODUCTS_DIR}/CommonCryptoModuleMap\" ]; then\necho \"${BUILT_PRODUCTS_DIR}/CommonCryptoModuleMap directory already exists, so skipping the rest of the script.\"\nexit 0\nfi\n\nmkdir -p \"${BUILT_PRODUCTS_DIR}/CommonCryptoModuleMap\"\ncat <<EOF > \"${BUILT_PRODUCTS_DIR}/CommonCryptoModuleMap/module.modulemap\"\nmodule CommonCrypto [system] {\n    header \"${SDKROOT}/usr/include/CommonCrypto/CommonCrypto.h\"\n    export *\n}\nEOF\n";
+		};
+		2ACBE2882042DB2D00282C8C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/CocoaAsyncSocket.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/AlamofireObjectMapper.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ObjectMapper.framework",
+			);
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/CocoaAsyncSocket.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/AlamofireObjectMapper.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Alamofire.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/ObjectMapper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2A8EF41B2025B31700AD3C9A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -328,7 +472,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A7E35CD2042E09F006E807F /* SessionTask.swift in Sources */,
 				359649031FB18CC000FC7ADC /* ConnectionKit.swift in Sources */,
+				2A7E35CB2042E088006E807F /* FileInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -545,7 +691,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "${PRODUCT_NAME}/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -564,7 +713,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "${PRODUCT_NAME}/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

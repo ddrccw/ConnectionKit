@@ -1,0 +1,4 @@
+github "Alamofire/Alamofire" "4.6.0"
+github "Hearst-DD/ObjectMapper" "3.1.0"
+github "robbiehanson/CocoaAsyncSocket" "f7df4b95dbbc11182fcd35352df0da86373e8a10"
+github "tristanhimmelman/AlamofireObjectMapper" "5.0.0"
