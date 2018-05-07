@@ -1,5 +1,12 @@
 //: Playground - noun: a place where people can play
 
-import ConnectionKit
+import RxSwift
 
-var str = "Hello, playground"
+//var files = [0, 1, 2, 3]
+//var dict = [Int, [Int]]()
+//
+//dict[0] = files
+
+
+
+

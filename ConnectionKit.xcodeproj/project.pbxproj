@@ -7,20 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2A7E35BC2042DD20006E807F /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A7E35B82042DD1F006E807F /* Alamofire.framework */; };
-		2A7E35BD2042DD20006E807F /* AlamofireObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A7E35B92042DD1F006E807F /* AlamofireObjectMapper.framework */; };
-		2A7E35BE2042DD20006E807F /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A7E35BA2042DD1F006E807F /* CocoaAsyncSocket.framework */; };
-		2A7E35BF2042DD20006E807F /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A7E35BB2042DD1F006E807F /* ObjectMapper.framework */; };
-		2A7E35CB2042E088006E807F /* FileInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7E35CA2042E088006E807F /* FileInfo.swift */; };
-		2A7E35CD2042E09F006E807F /* SessionTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7E35CC2042E09F006E807F /* SessionTask.swift */; };
+		2A0127FF2054E94900FD5089 /* CKSUDPSessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0127FE2054E94900FD5089 /* CKSUDPSessionDelegate.swift */; };
+		2A0128012054EA0B00FD5089 /* CKSTaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0128002054EA0B00FD5089 /* CKSTaskDelegate.swift */; };
+		2A0128032054F27500FD5089 /* CKSUDPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0128022054F27500FD5089 /* CKSUDPRequest.swift */; };
+		2A2517222070A9D80027E791 /* CKSTCPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2517212070A9D80027E791 /* CKSTCPClient.swift */; };
+		2A2517242070A9E20027E791 /* CKSTCPServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2517232070A9E20027E791 /* CKSTCPServer.swift */; };
+		2A2517262070A9F80027E791 /* CKSTCPSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2517252070A9F80027E791 /* CKSTCPSessionManager.swift */; };
+		2A2517282070AC830027E791 /* CKSTCPSessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2517272070AC830027E791 /* CKSTCPSessionDelegate.swift */; };
+		2A25172A207719C50027E791 /* CKSTCPError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A251729207719C50027E791 /* CKSTCPError.swift */; };
+		2A29620D2054FF3D00E4E404 /* CKSUDPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A29620C2054FF3D00E4E404 /* CKSUDPClient.swift */; };
+		2A29620F2054FF4B00E4E404 /* CKSUDPServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A29620E2054FF4B00E4E404 /* CKSUDPServer.swift */; };
+		2A2962112054FFB700E4E404 /* CKSUDPError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2962102054FFB700E4E404 /* CKSUDPError.swift */; };
+		2A2962132055027500E4E404 /* CKSUDPNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2962122055027500E4E404 /* CKSUDPNotifications.swift */; };
+		2A29621A205CC7D400E4E404 /* CKSTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A296219205CC7D400E4E404 /* CKSTask.swift */; };
+		2A29621C205D351D00E4E404 /* test.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2A29621B205D351D00E4E404 /* test.mp4 */; };
+		2A29621E205FFD4100E4E404 /* CKSResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A29621D205FFD4100E4E404 /* CKSResponseSerialization.swift */; };
+		2A296220205FFDB500E4E404 /* CKSResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A29621F205FFDB500E4E404 /* CKSResponse.swift */; };
+		2A3C89A22078F9120024CB3D /* CKSSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3C89A12078F9120024CB3D /* CKSSessionManager.swift */; };
+		2A59F807208382AE006A7579 /* ConnectionKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3549BB211DA389CD00C63030 /* ConnectionKit.framework */; };
+		2A7E35CB2042E088006E807F /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7E35CA2042E088006E807F /* File.swift */; };
 		2A8EF4222025B31700AD3C9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8EF4212025B31700AD3C9A /* AppDelegate.swift */; };
 		2A8EF4242025B31700AD3C9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8EF4232025B31700AD3C9A /* ViewController.swift */; };
 		2A8EF4272025B31700AD3C9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A8EF4252025B31700AD3C9A /* Main.storyboard */; };
 		2A8EF4292025B31700AD3C9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A8EF4282025B31700AD3C9A /* Assets.xcassets */; };
 		2A8EF42C2025B31700AD3C9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A8EF42A2025B31700AD3C9A /* LaunchScreen.storyboard */; };
+		2AC82954207897E1009EF553 /* CKSRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC82953207897E1009EF553 /* CKSRequest.swift */; };
+		2AC829562078986E009EF553 /* CKSTCPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC829552078986E009EF553 /* CKSTCPRequest.swift */; };
+		2ADC00AA2053992D00CA8A46 /* HotspotManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADC00A02053992D00CA8A46 /* HotspotManager.swift */; };
+		2ADC00AB2053992D00CA8A46 /* SocketNetCoreUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADC00A22053992D00CA8A46 /* SocketNetCoreUtils.swift */; };
+		2ADC00AC2053992D00CA8A46 /* route.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ADC00A32053992D00CA8A46 /* route.h */; };
+		2ADC00AD2053992D00CA8A46 /* if_ether.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ADC00A42053992D00CA8A46 /* if_ether.h */; };
+		2ADC00AE2053992D00CA8A46 /* if_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ADC00A52053992D00CA8A46 /* if_types.h */; };
+		2ADC00AF2053992D00CA8A46 /* if_dl.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ADC00A62053992D00CA8A46 /* if_dl.h */; };
+		2ADC00B02053992D00CA8A46 /* if_arp.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ADC00A72053992D00CA8A46 /* if_arp.h */; };
+		2ADC00B12053992D00CA8A46 /* SocketConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADC00A82053992D00CA8A46 /* SocketConstants.swift */; };
+		2ADC00B22053992D00CA8A46 /* SocketUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADC00A92053992D00CA8A46 /* SocketUtils.swift */; };
+		2ADC00C120539CAF00CA8A46 /* CKSUDPSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADC00C020539CAF00CA8A46 /* CKSUDPSessionManager.swift */; };
+		33C9BDA14CE3F4ED454B3D60 /* Pods_ConnectionKit_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B33DAD46A3A274C67B48DE54 /* Pods_ConnectionKit_iOS.framework */; };
 		3549BB501DA38A2000C63030 /* ConnectionKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 3549BB181DA3890B00C63030 /* ConnectionKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3549BB661DA38ADB00C63030 /* ConnectionKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3549BB211DA389CD00C63030 /* ConnectionKit.framework */; };
 		359649031FB18CC000FC7ADC /* ConnectionKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359649021FB18CBF00FC7ADC /* ConnectionKit.swift */; };
+		815D413819A7E4BEE1C15272 /* Pods_ConnectionKit_iOS_ConnectionKitTests_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A2F0BF69046F7CE031423E0 /* Pods_ConnectionKit_iOS_ConnectionKitTests_iOS.framework */; };
+		CF8D4266EE204BF4C7D0DAF5 /* Pods_ConnectionKit_iOS_ConnectionKit_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F710B00AFEE5C11D8DDD425 /* Pods_ConnectionKit_iOS_ConnectionKit_Demo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,13 +82,30 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		070BC7C686F675B50B3B9E5F /* Pods-ConnectionKit-iOS-ConnectionKit-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConnectionKit-iOS-ConnectionKit-Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ConnectionKit-iOS-ConnectionKit-Demo/Pods-ConnectionKit-iOS-ConnectionKit-Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		2A0127FE2054E94900FD5089 /* CKSUDPSessionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKSUDPSessionDelegate.swift; sourceTree = "<group>"; };
+		2A0128002054EA0B00FD5089 /* CKSTaskDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKSTaskDelegate.swift; sourceTree = "<group>"; };
+		2A0128022054F27500FD5089 /* CKSUDPRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKSUDPRequest.swift; sourceTree = "<group>"; };
 		2A1B643F2042FCA4005BA951 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		2A2517212070A9D80027E791 /* CKSTCPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKSTCPClient.swift; sourceTree = "<group>"; };
+		2A2517232070A9E20027E791 /* CKSTCPServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKSTCPServer.swift; sourceTree = "<group>"; };
+		2A2517252070A9F80027E791 /* CKSTCPSessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKSTCPSessionManager.swift; sourceTree = "<group>"; };
+		2A2517272070AC830027E791 /* CKSTCPSessionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKSTCPSessionDelegate.swift; sourceTree = "<group>"; };
+		2A251729207719C50027E791 /* CKSTCPError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKSTCPError.swift; sourceTree = "<group>"; };
+		2A29620C2054FF3D00E4E404 /* CKSUDPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKSUDPClient.swift; sourceTree = "<group>"; };
+		2A29620E2054FF4B00E4E404 /* CKSUDPServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKSUDPServer.swift; sourceTree = "<group>"; };
+		2A2962102054FFB700E4E404 /* CKSUDPError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKSUDPError.swift; sourceTree = "<group>"; };
+		2A2962122055027500E4E404 /* CKSUDPNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKSUDPNotifications.swift; sourceTree = "<group>"; };
+		2A296219205CC7D400E4E404 /* CKSTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKSTask.swift; sourceTree = "<group>"; };
+		2A29621B205D351D00E4E404 /* test.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.mp4; sourceTree = "<group>"; };
+		2A29621D205FFD4100E4E404 /* CKSResponseSerialization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKSResponseSerialization.swift; sourceTree = "<group>"; };
+		2A29621F205FFDB500E4E404 /* CKSResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKSResponse.swift; sourceTree = "<group>"; };
+		2A3C89A12078F9120024CB3D /* CKSSessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKSSessionManager.swift; sourceTree = "<group>"; };
 		2A7E35B82042DD1F006E807F /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		2A7E35B92042DD1F006E807F /* AlamofireObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireObjectMapper.framework; path = Carthage/Build/iOS/AlamofireObjectMapper.framework; sourceTree = "<group>"; };
 		2A7E35BA2042DD1F006E807F /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaAsyncSocket.framework; path = Carthage/Build/iOS/CocoaAsyncSocket.framework; sourceTree = "<group>"; };
 		2A7E35BB2042DD1F006E807F /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectMapper.framework; path = Carthage/Build/iOS/ObjectMapper.framework; sourceTree = "<group>"; };
-		2A7E35CA2042E088006E807F /* FileInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileInfo.swift; sourceTree = "<group>"; };
-		2A7E35CC2042E09F006E807F /* SessionTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SessionTask.swift; path = ConnectionKit/Classes/SessionTask.swift; sourceTree = SOURCE_ROOT; };
+		2A7E35CA2042E088006E807F /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		2A8EF41F2025B31700AD3C9A /* ConnectionKit-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ConnectionKit-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A8EF4212025B31700AD3C9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A8EF4232025B31700AD3C9A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -68,12 +113,32 @@
 		2A8EF4282025B31700AD3C9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A8EF42B2025B31700AD3C9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A8EF42D2025B31700AD3C9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AC82953207897E1009EF553 /* CKSRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKSRequest.swift; sourceTree = "<group>"; };
+		2AC829552078986E009EF553 /* CKSTCPRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKSTCPRequest.swift; sourceTree = "<group>"; };
+		2ADC00A02053992D00CA8A46 /* HotspotManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotspotManager.swift; sourceTree = "<group>"; };
+		2ADC00A22053992D00CA8A46 /* SocketNetCoreUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketNetCoreUtils.swift; sourceTree = "<group>"; };
+		2ADC00A32053992D00CA8A46 /* route.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = route.h; sourceTree = "<group>"; };
+		2ADC00A42053992D00CA8A46 /* if_ether.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = if_ether.h; sourceTree = "<group>"; };
+		2ADC00A52053992D00CA8A46 /* if_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = if_types.h; sourceTree = "<group>"; };
+		2ADC00A62053992D00CA8A46 /* if_dl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = if_dl.h; sourceTree = "<group>"; };
+		2ADC00A72053992D00CA8A46 /* if_arp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = if_arp.h; sourceTree = "<group>"; };
+		2ADC00A82053992D00CA8A46 /* SocketConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketConstants.swift; sourceTree = "<group>"; };
+		2ADC00A92053992D00CA8A46 /* SocketUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketUtils.swift; sourceTree = "<group>"; };
+		2ADC00C020539CAF00CA8A46 /* CKSUDPSessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKSUDPSessionManager.swift; sourceTree = "<group>"; };
 		3549BB171DA3890B00C63030 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3549BB181DA3890B00C63030 /* ConnectionKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionKit.h; sourceTree = "<group>"; };
 		3549BB211DA389CD00C63030 /* ConnectionKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ConnectionKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3549BB581DA38A8800C63030 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3549BB611DA38ADB00C63030 /* ConnectionKitTests-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ConnectionKitTests-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		359649021FB18CBF00FC7ADC /* ConnectionKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionKit.swift; sourceTree = "<group>"; };
+		3A2F0BF69046F7CE031423E0 /* Pods_ConnectionKit_iOS_ConnectionKitTests_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConnectionKit_iOS_ConnectionKitTests_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68F3E0EC3D7DF13AD4D05511 /* Pods-ConnectionKit-iOS-ConnectionKit-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConnectionKit-iOS-ConnectionKit-Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ConnectionKit-iOS-ConnectionKit-Demo/Pods-ConnectionKit-iOS-ConnectionKit-Demo.release.xcconfig"; sourceTree = "<group>"; };
+		7F710B00AFEE5C11D8DDD425 /* Pods_ConnectionKit_iOS_ConnectionKit_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConnectionKit_iOS_ConnectionKit_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95890E131B04E9929A2A0DBB /* Pods-ConnectionKit-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConnectionKit-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ConnectionKit-iOS/Pods-ConnectionKit-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		A41B5E1040E61AFAEC250234 /* Pods-ConnectionKit-iOS-ConnectionKitTests-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConnectionKit-iOS-ConnectionKitTests-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-ConnectionKit-iOS-ConnectionKitTests-iOS/Pods-ConnectionKit-iOS-ConnectionKitTests-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		B33DAD46A3A274C67B48DE54 /* Pods_ConnectionKit_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConnectionKit_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAE5900FE47E269B33595AED /* Pods-ConnectionKit-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConnectionKit-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-ConnectionKit-iOS/Pods-ConnectionKit-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		E0135EA97185E9938AA56B2D /* Pods-ConnectionKit-iOS-ConnectionKitTests-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConnectionKit-iOS-ConnectionKitTests-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ConnectionKit-iOS-ConnectionKitTests-iOS/Pods-ConnectionKit-iOS-ConnectionKitTests-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +146,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A59F807208382AE006A7579 /* ConnectionKit.framework in Frameworks */,
+				CF8D4266EE204BF4C7D0DAF5 /* Pods_ConnectionKit_iOS_ConnectionKit_Demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,10 +155,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A7E35BC2042DD20006E807F /* Alamofire.framework in Frameworks */,
-				2A7E35BD2042DD20006E807F /* AlamofireObjectMapper.framework in Frameworks */,
-				2A7E35BE2042DD20006E807F /* CocoaAsyncSocket.framework in Frameworks */,
-				2A7E35BF2042DD20006E807F /* ObjectMapper.framework in Frameworks */,
+				33C9BDA14CE3F4ED454B3D60 /* Pods_ConnectionKit_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,94 +164,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				3549BB661DA38ADB00C63030 /* ConnectionKit.framework in Frameworks */,
+				815D413819A7E4BEE1C15272 /* Pods_ConnectionKit_iOS_ConnectionKitTests_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2A7E35C02042DFFD006E807F /* Socket */ = {
-			isa = PBXGroup;
-			children = (
-				2A7E35C12042DFFD006E807F /* Tasks */,
-				2A7E35C32042DFFD006E807F /* UDP */,
-				2A7E35C62042DFFD006E807F /* Utils */,
-				2A7E35C72042DFFD006E807F /* TCP */,
-			);
-			path = Socket;
-			sourceTree = "<group>";
-		};
-		2A7E35C12042DFFD006E807F /* Tasks */ = {
-			isa = PBXGroup;
-			children = (
-				2A7E35C22042DFFD006E807F /* TCP */,
-			);
-			path = Tasks;
-			sourceTree = "<group>";
-		};
-		2A7E35C22042DFFD006E807F /* TCP */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = TCP;
-			sourceTree = "<group>";
-		};
-		2A7E35C32042DFFD006E807F /* UDP */ = {
-			isa = PBXGroup;
-			children = (
-				2A7E35C42042DFFD006E807F /* Server */,
-				2A7E35C52042DFFD006E807F /* Client */,
-			);
-			path = UDP;
-			sourceTree = "<group>";
-		};
-		2A7E35C42042DFFD006E807F /* Server */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Server;
-			sourceTree = "<group>";
-		};
-		2A7E35C52042DFFD006E807F /* Client */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Client;
-			sourceTree = "<group>";
-		};
-		2A7E35C62042DFFD006E807F /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Utils;
-			sourceTree = "<group>";
-		};
-		2A7E35C72042DFFD006E807F /* TCP */ = {
-			isa = PBXGroup;
-			children = (
-				2A7E35C82042DFFD006E807F /* Server */,
-				2A7E35C92042DFFD006E807F /* Client */,
-			);
-			path = TCP;
-			sourceTree = "<group>";
-		};
-		2A7E35C82042DFFD006E807F /* Server */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Server;
-			sourceTree = "<group>";
-		};
-		2A7E35C92042DFFD006E807F /* Client */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Client;
-			sourceTree = "<group>";
-		};
 		2A8EF4202025B31700AD3C9A /* ConnectionKit-Demo */ = {
 			isa = PBXGroup;
 			children = (
+				2A29621B205D351D00E4E404 /* test.mp4 */,
 				2A8EF4212025B31700AD3C9A /* AppDelegate.swift */,
 				2A8EF4232025B31700AD3C9A /* ViewController.swift */,
 				2A8EF4252025B31700AD3C9A /* Main.storyboard */,
@@ -198,6 +185,65 @@
 			path = "ConnectionKit-Demo";
 			sourceTree = "<group>";
 		};
+		2ADC009F2053992D00CA8A46 /* Socket */ = {
+			isa = PBXGroup;
+			children = (
+				2ADC00BD20539C8000CA8A46 /* TCP */,
+				2ADC00BA20539C7F00CA8A46 /* UDP */,
+				2ADC00A02053992D00CA8A46 /* HotspotManager.swift */,
+				2ADC00A12053992D00CA8A46 /* Utils */,
+				2A3C89A12078F9120024CB3D /* CKSSessionManager.swift */,
+				2AC82953207897E1009EF553 /* CKSRequest.swift */,
+				2A29621D205FFD4100E4E404 /* CKSResponseSerialization.swift */,
+				2A29621F205FFDB500E4E404 /* CKSResponse.swift */,
+				2A0128002054EA0B00FD5089 /* CKSTaskDelegate.swift */,
+				2A296219205CC7D400E4E404 /* CKSTask.swift */,
+			);
+			path = Socket;
+			sourceTree = "<group>";
+		};
+		2ADC00A12053992D00CA8A46 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				2ADC00A22053992D00CA8A46 /* SocketNetCoreUtils.swift */,
+				2ADC00A32053992D00CA8A46 /* route.h */,
+				2ADC00A42053992D00CA8A46 /* if_ether.h */,
+				2ADC00A52053992D00CA8A46 /* if_types.h */,
+				2ADC00A62053992D00CA8A46 /* if_dl.h */,
+				2ADC00A72053992D00CA8A46 /* if_arp.h */,
+				2ADC00A82053992D00CA8A46 /* SocketConstants.swift */,
+				2ADC00A92053992D00CA8A46 /* SocketUtils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		2ADC00BA20539C7F00CA8A46 /* UDP */ = {
+			isa = PBXGroup;
+			children = (
+				2ADC00C020539CAF00CA8A46 /* CKSUDPSessionManager.swift */,
+				2A29620E2054FF4B00E4E404 /* CKSUDPServer.swift */,
+				2A29620C2054FF3D00E4E404 /* CKSUDPClient.swift */,
+				2A0127FE2054E94900FD5089 /* CKSUDPSessionDelegate.swift */,
+				2A0128022054F27500FD5089 /* CKSUDPRequest.swift */,
+				2A2962102054FFB700E4E404 /* CKSUDPError.swift */,
+				2A2962122055027500E4E404 /* CKSUDPNotifications.swift */,
+			);
+			path = UDP;
+			sourceTree = "<group>";
+		};
+		2ADC00BD20539C8000CA8A46 /* TCP */ = {
+			isa = PBXGroup;
+			children = (
+				2A2517252070A9F80027E791 /* CKSTCPSessionManager.swift */,
+				2A2517232070A9E20027E791 /* CKSTCPServer.swift */,
+				2A2517212070A9D80027E791 /* CKSTCPClient.swift */,
+				2A2517272070AC830027E791 /* CKSTCPSessionDelegate.swift */,
+				2A251729207719C50027E791 /* CKSTCPError.swift */,
+				2AC829552078986E009EF553 /* CKSTCPRequest.swift */,
+			);
+			path = TCP;
+			sourceTree = "<group>";
+		};
 		3549BAFB1DA387DB00C63030 = {
 			isa = PBXGroup;
 			children = (
@@ -206,6 +252,7 @@
 				2A8EF4202025B31700AD3C9A /* ConnectionKit-Demo */,
 				3549BB061DA387DB00C63030 /* Products */,
 				357D954B1DA3F2B400AEC55F /* Frameworks */,
+				D3AB0008C553EB55227B11D0 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -261,6 +308,9 @@
 				2A7E35B92042DD1F006E807F /* AlamofireObjectMapper.framework */,
 				2A7E35BA2042DD1F006E807F /* CocoaAsyncSocket.framework */,
 				2A7E35BB2042DD1F006E807F /* ObjectMapper.framework */,
+				B33DAD46A3A274C67B48DE54 /* Pods_ConnectionKit_iOS.framework */,
+				7F710B00AFEE5C11D8DDD425 /* Pods_ConnectionKit_iOS_ConnectionKit_Demo.framework */,
+				3A2F0BF69046F7CE031423E0 /* Pods_ConnectionKit_iOS_ConnectionKitTests_iOS.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -268,12 +318,24 @@
 		359649011FB18CBF00FC7ADC /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				2A7E35C02042DFFD006E807F /* Socket */,
+				2ADC009F2053992D00CA8A46 /* Socket */,
 				359649021FB18CBF00FC7ADC /* ConnectionKit.swift */,
-				2A7E35CC2042E09F006E807F /* SessionTask.swift */,
-				2A7E35CA2042E088006E807F /* FileInfo.swift */,
+				2A7E35CA2042E088006E807F /* File.swift */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		D3AB0008C553EB55227B11D0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				95890E131B04E9929A2A0DBB /* Pods-ConnectionKit-iOS.debug.xcconfig */,
+				DAE5900FE47E269B33595AED /* Pods-ConnectionKit-iOS.release.xcconfig */,
+				070BC7C686F675B50B3B9E5F /* Pods-ConnectionKit-iOS-ConnectionKit-Demo.debug.xcconfig */,
+				68F3E0EC3D7DF13AD4D05511 /* Pods-ConnectionKit-iOS-ConnectionKit-Demo.release.xcconfig */,
+				E0135EA97185E9938AA56B2D /* Pods-ConnectionKit-iOS-ConnectionKitTests-iOS.debug.xcconfig */,
+				A41B5E1040E61AFAEC250234 /* Pods-ConnectionKit-iOS-ConnectionKitTests-iOS.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,7 +345,12 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2ADC00AD2053992D00CA8A46 /* if_ether.h in Headers */,
+				2ADC00AC2053992D00CA8A46 /* route.h in Headers */,
 				3549BB501DA38A2000C63030 /* ConnectionKit.h in Headers */,
+				2ADC00AF2053992D00CA8A46 /* if_dl.h in Headers */,
+				2ADC00AE2053992D00CA8A46 /* if_types.h in Headers */,
+				2ADC00B02053992D00CA8A46 /* if_arp.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,9 +361,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2A8EF42E2025B31700AD3C9A /* Build configuration list for PBXNativeTarget "ConnectionKit-Demo" */;
 			buildPhases = (
+				4C00CEA91E4670270925178D /* [CP] Check Pods Manifest.lock */,
 				2A8EF41B2025B31700AD3C9A /* Sources */,
 				2A8EF41C2025B31700AD3C9A /* Frameworks */,
 				2A8EF41D2025B31700AD3C9A /* Resources */,
+				7FE8324FD808247410E8F2EE /* [CP] Embed Pods Frameworks */,
+				1D6689066A35FA18DB7D2604 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -312,12 +382,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3549BB261DA389CD00C63030 /* Build configuration list for PBXNativeTarget "ConnectionKit-iOS" */;
 			buildPhases = (
+				60E2BCE95C581A77094850C9 /* [CP] Check Pods Manifest.lock */,
+				2A1B64412042FFD9005BA951 /* CommonCryptoModuleMap */,
+				2AD11D192046F831002708CD /* PrivateModuleMap */,
 				3549BB1C1DA389CD00C63030 /* Sources */,
 				3549BB1D1DA389CD00C63030 /* Frameworks */,
 				3549BB1E1DA389CD00C63030 /* Headers */,
 				3549BB1F1DA389CD00C63030 /* Resources */,
-				2ACBE2882042DB2D00282C8C /* ShellScript */,
-				2A1B64412042FFD9005BA951 /* CommonCryptoModuleMap */,
+				3E8EF145B338CE8DAAC87EA7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -332,10 +404,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3549BB691DA38ADB00C63030 /* Build configuration list for PBXNativeTarget "ConnectionKitTests-iOS" */;
 			buildPhases = (
+				0998140A9A619201C2069617 /* [CP] Check Pods Manifest.lock */,
 				3549BB5D1DA38ADB00C63030 /* Sources */,
 				3549BB5E1DA38ADB00C63030 /* Frameworks */,
 				3549BB5F1DA38ADB00C63030 /* Resources */,
 				35B7422C1F82A2C700829B21 /* Embed Frameworks */,
+				1C9B33BB291FD7F77ADB5A2A /* [CP] Embed Pods Frameworks */,
+				937674A03F64931F0550E0FC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -359,6 +434,7 @@
 				TargetAttributes = {
 					2A8EF41E2025B31700AD3C9A = {
 						CreatedOnToolsVersion = 9.0;
+						DevelopmentTeam = TEFG9ZGRT9;
 						ProvisioningStyle = Automatic;
 					};
 					3549BB201DA389CD00C63030 = {
@@ -401,6 +477,7 @@
 				2A8EF42C2025B31700AD3C9A /* LaunchScreen.storyboard in Resources */,
 				2A8EF4292025B31700AD3C9A /* Assets.xcassets in Resources */,
 				2A8EF4272025B31700AD3C9A /* Main.storyboard in Resources */,
+				2A29621C205D351D00E4E404 /* test.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,6 +498,73 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0998140A9A619201C2069617 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ConnectionKit-iOS-ConnectionKitTests-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1C9B33BB291FD7F77ADB5A2A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ConnectionKit-iOS-ConnectionKitTests-iOS/Pods-ConnectionKit-iOS-ConnectionKitTests-iOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwiftExt/RxSwiftExt.framework",
+				"${BUILT_PRODUCTS_DIR}/Strongify/Strongify.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaAsyncSocket.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwiftExt.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Strongify.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ConnectionKit-iOS-ConnectionKitTests-iOS/Pods-ConnectionKit-iOS-ConnectionKitTests-iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1D6689066A35FA18DB7D2604 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ConnectionKit-iOS-ConnectionKit-Demo/Pods-ConnectionKit-iOS-ConnectionKit-Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		2A1B64412042FFD9005BA951 /* CommonCryptoModuleMap */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -433,28 +577,123 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# This if-statement means we'll only run the main script if the CommonCryptoModuleMap directory doesn't exist\n# Because otherwise the rest of the script causes a full recompile for anything where CommonCrypto is a dependency\n# Do a \"Clean Build Folder\" to remove this directory and trigger the rest of the script to run\nif [ -d \"${BUILT_PRODUCTS_DIR}/CommonCryptoModuleMap\" ]; then\necho \"${BUILT_PRODUCTS_DIR}/CommonCryptoModuleMap directory already exists, so skipping the rest of the script.\"\nexit 0\nfi\n\nmkdir -p \"${BUILT_PRODUCTS_DIR}/CommonCryptoModuleMap\"\ncat <<EOF > \"${BUILT_PRODUCTS_DIR}/CommonCryptoModuleMap/module.modulemap\"\nmodule CommonCrypto [system] {\n    header \"${SDKROOT}/usr/include/CommonCrypto/CommonCrypto.h\"\n    export *\n}\nEOF\n";
+			shellScript = "# This if-statement means we'll only run the main script if the CommonCryptoModuleMap directory doesn't exist\n# Because otherwise the rest of the script causes a full recompile for anything where CommonCrypto is a dependency\n# Do a \"Clean Build Folder\" to remove this directory and trigger the rest of the script to run\n#if [ -d \"${BUILT_PRODUCTS_DIR}/CommonCryptoModuleMap\" ]; then\n#echo \"${BUILT_PRODUCTS_DIR}/CommonCryptoModuleMap directory already exists, so skipping the rest of the script.\"\n#exit 0\n#fi\n\nmkdir -p \"${BUILT_PRODUCTS_DIR}/CommonCryptoModuleMap\"\ncat <<EOF > \"${BUILT_PRODUCTS_DIR}/CommonCryptoModuleMap/module.modulemap\"\nmodule CommonCrypto [system] {\n    header \"${SDKROOT}/usr/include/CommonCrypto/CommonCrypto.h\"\n    export *\n}\nEOF\n";
 		};
-		2ACBE2882042DB2D00282C8C /* ShellScript */ = {
+		2AD11D192046F831002708CD /* PrivateModuleMap */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/CocoaAsyncSocket.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/AlamofireObjectMapper.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/ObjectMapper.framework",
 			);
+			name = PrivateModuleMap;
 			outputPaths = (
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/CocoaAsyncSocket.framework",
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/AlamofireObjectMapper.framework",
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Alamofire.framework",
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/ObjectMapper.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+			shellScript = "# This if-statement means we'll only run the main script if the CommonCryptoModuleMap directory doesn't exist\n# Because otherwise the rest of the script causes a full recompile for anything where CommonCrypto is a dependency\n# Do a \"Clean Build Folder\" to remove this directory and trigger the rest of the script to run\n#if [ -d \"${BUILT_PRODUCTS_DIR}/CommonModuleMap\" ]; then\n#echo \"${BUILT_PRODUCTS_DIR}/CommonModuleMap directory already exists, so skipping the rest of the script.\"\n#exit 0\n#fi\n\nmkdir -p \"${BUILT_PRODUCTS_DIR}/CommonModuleMap\"\ncat <<EOF > \"${BUILT_PRODUCTS_DIR}/CommonModuleMap/module.modulemap\"\nframework module ConnectionKit {\n    module Private {\n        header \"${SRCROOT}/${PROJECT_NAME}/Classes/Socket/Utils/if_arp.h\"\n        header \"${SRCROOT}/${PROJECT_NAME}/Classes/Socket/Utils/if_dl.h\"\n        header \"${SRCROOT}/${PROJECT_NAME}/Classes/Socket/Utils/if_ether.h\"\n        header \"${SRCROOT}/${PROJECT_NAME}/Classes/Socket/Utils/if_types.h\"\n        header \"${SRCROOT}/${PROJECT_NAME}/Classes/Socket/Utils/route.h\"\n        export *\n    }\n    module net [system] {\n        header \"${SDKROOT}/usr/include/net/ethernet.h\"\n        header \"${SDKROOT}/usr/include/ifaddrs.h\"\n        export *\n    }\n}\n\nEOF\n";
+		};
+		3E8EF145B338CE8DAAC87EA7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ConnectionKit-iOS/Pods-ConnectionKit-iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C00CEA91E4670270925178D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ConnectionKit-iOS-ConnectionKit-Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60E2BCE95C581A77094850C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ConnectionKit-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FE8324FD808247410E8F2EE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ConnectionKit-iOS-ConnectionKit-Demo/Pods-ConnectionKit-iOS-ConnectionKit-Demo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwiftExt/RxSwiftExt.framework",
+				"${BUILT_PRODUCTS_DIR}/Strongify/Strongify.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaAsyncSocket.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwiftExt.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Strongify.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ConnectionKit-iOS-ConnectionKit-Demo/Pods-ConnectionKit-iOS-ConnectionKit-Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		937674A03F64931F0550E0FC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ConnectionKit-iOS-ConnectionKitTests-iOS/Pods-ConnectionKit-iOS-ConnectionKitTests-iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -472,9 +711,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A7E35CD2042E09F006E807F /* SessionTask.swift in Sources */,
+				2A25172A207719C50027E791 /* CKSTCPError.swift in Sources */,
+				2A3C89A22078F9120024CB3D /* CKSSessionManager.swift in Sources */,
+				2A29621A205CC7D400E4E404 /* CKSTask.swift in Sources */,
+				2A296220205FFDB500E4E404 /* CKSResponse.swift in Sources */,
+				2A29620D2054FF3D00E4E404 /* CKSUDPClient.swift in Sources */,
+				2AC82954207897E1009EF553 /* CKSRequest.swift in Sources */,
+				2A0127FF2054E94900FD5089 /* CKSUDPSessionDelegate.swift in Sources */,
+				2A2517242070A9E20027E791 /* CKSTCPServer.swift in Sources */,
+				2ADC00C120539CAF00CA8A46 /* CKSUDPSessionManager.swift in Sources */,
+				2ADC00B22053992D00CA8A46 /* SocketUtils.swift in Sources */,
+				2A2962132055027500E4E404 /* CKSUDPNotifications.swift in Sources */,
+				2A0128032054F27500FD5089 /* CKSUDPRequest.swift in Sources */,
 				359649031FB18CC000FC7ADC /* ConnectionKit.swift in Sources */,
-				2A7E35CB2042E088006E807F /* FileInfo.swift in Sources */,
+				2A7E35CB2042E088006E807F /* File.swift in Sources */,
+				2ADC00AB2053992D00CA8A46 /* SocketNetCoreUtils.swift in Sources */,
+				2ADC00B12053992D00CA8A46 /* SocketConstants.swift in Sources */,
+				2AC829562078986E009EF553 /* CKSTCPRequest.swift in Sources */,
+				2A2517222070A9D80027E791 /* CKSTCPClient.swift in Sources */,
+				2ADC00AA2053992D00CA8A46 /* HotspotManager.swift in Sources */,
+				2A29620F2054FF4B00E4E404 /* CKSUDPServer.swift in Sources */,
+				2A2517262070A9F80027E791 /* CKSTCPSessionManager.swift in Sources */,
+				2A2517282070AC830027E791 /* CKSTCPSessionDelegate.swift in Sources */,
+				2A29621E205FFD4100E4E404 /* CKSResponseSerialization.swift in Sources */,
+				2A0128012054EA0B00FD5089 /* CKSTaskDelegate.swift in Sources */,
+				2A2962112054FFB700E4E404 /* CKSUDPError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -522,19 +783,21 @@
 /* Begin XCBuildConfiguration section */
 		2A8EF42F2025B31700AD3C9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 070BC7C686F675B50B3B9E5F /* Pods-ConnectionKit-iOS-ConnectionKit-Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = TEFG9ZGRT9;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "ConnectionKit-Demo/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "me.ddrccw.ConnectionKit-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -545,19 +808,21 @@
 		};
 		2A8EF4302025B31700AD3C9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68F3E0EC3D7DF13AD4D05511 /* Pods-ConnectionKit-iOS-ConnectionKit-Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = TEFG9ZGRT9;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "ConnectionKit-Demo/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "me.ddrccw.ConnectionKit-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -685,6 +950,7 @@
 		};
 		3549BB271DA389CD00C63030 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95890E131B04E9929A2A0DBB /* Pods-ConnectionKit-iOS.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
@@ -698,6 +964,8 @@
 				INFOPLIST_FILE = "${PRODUCT_NAME}/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = me.ddrccw.ConnectionKit;
 				PRODUCT_NAME = ConnectionKit;
 				SKIP_INSTALL = YES;
@@ -707,6 +975,7 @@
 		};
 		3549BB281DA389CD00C63030 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAE5900FE47E269B33595AED /* Pods-ConnectionKit-iOS.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
@@ -717,9 +986,12 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
+				GCC_OPTIMIZATION_LEVEL = s;
 				INFOPLIST_FILE = "${PRODUCT_NAME}/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = me.ddrccw.ConnectionKit;
 				PRODUCT_NAME = ConnectionKit;
 				SKIP_INSTALL = YES;
@@ -728,6 +1000,7 @@
 		};
 		3549BB6A1DA38ADB00C63030 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0135EA97185E9938AA56B2D /* Pods-ConnectionKit-iOS-ConnectionKitTests-iOS.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
@@ -745,6 +1018,7 @@
 		};
 		3549BB6B1DA38ADB00C63030 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A41B5E1040E61AFAEC250234 /* Pods-ConnectionKit-iOS-ConnectionKitTests-iOS.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;

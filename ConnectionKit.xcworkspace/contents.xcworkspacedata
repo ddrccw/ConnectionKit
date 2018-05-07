@@ -17,9 +17,6 @@
       location = "group:Cartfile.private">
    </FileRef>
    <FileRef
-      location = "group:Cartfile.resolved">
-   </FileRef>
-   <FileRef
       location = "group:ConnectionKit.podspec">
    </FileRef>
    <FileRef
@@ -33,5 +30,8 @@
    </FileRef>
    <FileRef
       location = "group:Readme.md">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
    </FileRef>
 </Workspace>
