@@ -1,8 +1,7 @@
 
-#github "robbiehanson/CocoaAsyncSocket" "master"
-#
-#github "tristanhimmelman/AlamofireObjectMapper" ~> 5.0
-#github "Alamofire/Alamofire"
-#
-#github "Hearst-DD/ObjectMapper" ~> 3.1
-#
+github "Hearst-DD/ObjectMapper" ~> 3.1
+github "robbiehanson/CocoaAsyncSocket" "master"
+github "ashleymills/Reachability.swift"
+github "ReactiveX/RxSwift" ~> 4.0
+github "RxSwiftCommunity/RxSwiftExt"
+github "krzysztofzablocki/Strongify"
